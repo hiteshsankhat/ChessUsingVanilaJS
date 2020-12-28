@@ -8,9 +8,9 @@ function drawChessboard() {
         for (var j = 1; j <= 8; j++) {
             var box = document.createElement('div');
             if ((i % 2 === 0 && j % 2 !== 0) || (i % 2 !== 0 && j % 2 === 0)) {
-                box.className = 'box float-left'
-            } else {
                 box.className = 'box float-left black-color-bg'
+            } else {
+                box.className = 'box float-left'
             }
             box.id = 'box-' + i + '-' + j
             box.onclick = boxClickEvent

@@ -12,5 +12,243 @@
 }
 
 .black-color-bg {
-    background-color: black;
+    background-color: gray;
+}
+
+.piceces > span {
+    font-size: 70px;
+    font-weight: 500;
+    width: 80px;
+    height: 80px;
+}
+
+.black-king{
+    position: absolute;
+    z-index: 10;
+    top: 3px;
+    left: 341px;
+}
+
+.black-queen{
+    position: absolute;
+    z-index: 10;
+    top: 3px;
+    left: 259px;
+}
+
+.black-bishop-1{
+    position: absolute;
+    z-index: 10;
+    top: 3px;
+    left: 177px;
+}
+
+
+.black-knight-1{
+    position: absolute;
+    z-index: 10;
+    top: 3px;
+    left: 95px;
+}
+
+.black-rook-1{
+    position: absolute;
+    z-index: 10;
+    top: 3px;
+    left: 13px;
+}
+
+.black-bishop-2{
+    position: absolute;
+    z-index: 10;
+    top: 3px;
+    left: 423px;
+}
+
+
+.black-knight-2{
+    position: absolute;
+    z-index: 10;
+    top: 3px;
+    left: 503px;
+}
+
+.black-rook-2{
+    position: absolute;
+    z-index: 10;
+    top: 3px;
+    left: 585px;
+}
+
+.black-pawn-1{
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    left: 13px;
+}
+
+.black-pawn-2{
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    left: 95px;
+}
+
+.black-pawn-3{
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    left: 177px;
+}
+
+.black-pawn-4{
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    left: 259px;
+}
+
+.black-pawn-5{
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    left: 341px;
+}
+
+.black-pawn-6{
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    left: 423px;
+}
+
+.black-pawn-7{
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    left: 505px;
+}
+
+.black-pawn-8{
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    left: 587px;
+}
+
+/* white pieces*/
+
+
+.white-king{
+    position: absolute;
+    z-index: 10;
+    top: 574px;
+    left: 341px;
+}
+
+.white-queen{
+    position: absolute;
+    z-index: 10;
+    top: 574px;
+    left: 259px;
+}
+
+.white-bishop-1{
+    position: absolute;
+    z-index: 10;
+    top: 574px;
+    left: 177px;
+}
+
+
+.white-knight-1{
+    position: absolute;
+    z-index: 10;
+    top: 574px;
+    left: 95px;
+}
+
+.white-rook-1{
+    position: absolute;
+    z-index: 10;
+    top: 574px;
+    left: 13px;
+}
+
+.white-bishop-2{
+    position: absolute;
+    z-index: 10;
+    top: 574px;
+    left: 423px;
+}
+
+
+.white-knight-2{
+    position: absolute;
+    z-index: 10;
+    top: 574px;
+    left: 503px;
+}
+
+.white-rook-2{
+    position: absolute;
+    z-index: 10;
+    top: 574px;
+    left: 585px;
+}
+
+.white-pawn-1{
+    position: absolute;
+    z-index: 10;
+    top: 492px;
+    left: 13px;
+}
+
+.white-pawn-2{
+    position: absolute;
+    z-index: 10;
+    top: 492px;
+    left: 95px;
+}
+
+.white-pawn-3{
+    position: absolute;
+    z-index: 10;
+    top: 492px;
+    left: 177px;
+}
+
+.white-pawn-4{
+    position: absolute;
+    z-index: 10;
+    top: 492px;
+    left: 259px;
+}
+
+.white-pawn-5{
+    position: absolute;
+    z-index: 10;
+    top: 492px;
+    left: 341px;
+}
+
+.white-pawn-6{
+    position: absolute;
+    z-index: 10;
+    top: 492px;
+    left: 423px;
+}
+
+.white-pawn-7{
+    position: absolute;
+    z-index: 10;
+    top: 492px;
+    left: 505px;
+}
+
+.white-pawn-8{
+    position: absolute;
+    z-index: 10;
+    top: 492px;
+    left: 587px;
 }
