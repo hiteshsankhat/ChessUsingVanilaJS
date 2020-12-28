@@ -1,0 +1,16 @@
+.float-left {
+    float: left;
+}
+.clear-float {
+    clear: both;
+}
+.box {
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    
+}
+
+.black-color-bg {
+    background-color: black;
+}
