@@ -1,1 +1,1 @@
-# Multi player chess using react
+# Muti Player chess using react 
