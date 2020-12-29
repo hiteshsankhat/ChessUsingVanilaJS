@@ -5,3 +5,18 @@
 .sqaure-white {
     background-color: white;
 }
+
+.none {
+    display: none;
+}
+
+.green-dot {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    margin: 20px;
+    background-color: rgb(21, 199, 45);
+    border-radius: 50%;
+    display: inline-block;
+}
+
