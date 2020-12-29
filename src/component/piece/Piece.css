@@ -11,3 +11,7 @@
     max-width: 70%;
     max-height: 70%;
 }
+
+.red-border {
+    border: red 1px solid;
+}

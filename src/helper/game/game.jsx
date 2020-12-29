@@ -57,6 +57,10 @@ export function updateGame(pendingPromotion) {
     gameSubject.next(newGame);
 }
 
+export function isCheck(i) {
+    return chess.in_check();
+}
+
 function getGameResult() {
     if (chess.in_checkmate()) {
         const winner = chess.turn() === "w" ? "BLACK" : "WHITE";

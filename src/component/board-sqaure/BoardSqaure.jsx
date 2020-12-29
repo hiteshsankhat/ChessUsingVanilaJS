@@ -5,7 +5,7 @@ import Piece from "../piece/Piece";
 import Promote from "../promotion/Promote";
 import Sqaure from "../sqaure/Sqaure";
 
-function BoardSqaure({ piece, black, position, clickCheck, nextMove, resetNextMoveAarry }) {
+function BoardSqaure({ piece, black, position, clickCheck, nextMove, resetNextMoveAarry, isCheck, turn }) {
     const [promotion, setPromotion] = useState(null);
 
     const [, drop] = useDrop({
@@ -34,7 +34,7 @@ function BoardSqaure({ piece, black, position, clickCheck, nextMove, resetNextMo
                 {promotion ? (
                     <Promote promotion={promotion} />
                 ) : piece ? (
-                    <Piece piece={piece} position={position} />
+                    <Piece piece={piece} position={position} isCheck={isCheck} turn={turn} />
                 ) : null}
             </Sqaure>
         </div>

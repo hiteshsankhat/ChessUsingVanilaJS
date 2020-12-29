@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getNextMoves } from "../../helper/game/game";
+import { getNextMoves, isCheck } from "../../helper/game/game";
 import BoardSqaure from "../board-sqaure/BoardSqaure";
 import "./ChessBoard.css";
 
@@ -62,6 +62,8 @@ function ChessBoard({ board, turn }) {
                         position={getPosition(i)}
                         resetNextMoveAarry={resetNextMoveAarry}
                         clickCheck={() => clickCheck(getPosition(i))}
+                        isCheck={isCheck(i)}
+                        turn={turn}
                     />
                 </div>
             ))}
